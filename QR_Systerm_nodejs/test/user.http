@@ -1,13 +1,3 @@
-### 获取用户列表
-POST http://127.0.0.1:33001/api/user/getUserList
+### 获取用户信息
+POST http://127.0.0.1:33001/api/user/getUserId
 Content-Type: application/json
-
-
-
-### 获取用户详细信息
-POST http://127.0.0.1:33001/api/user/getUserInfo
-Content-Type: application/json
-
-{
-    "userId": "23209010001"
-}
